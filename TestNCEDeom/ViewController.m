@@ -63,8 +63,8 @@
 - (void)didReceiveNotificationResponse:(UNNotificationResponse*)response content:(UNNotificationContent*)content isLocal:(BOOL)blocal
 {
     NSString     *actionID      = response.actionIdentifier;
-    NSString     *categoryID    = content.categoryIdentifier;
-    NSDictionary *userInfo      = content.userInfo;
+//    NSString     *categoryID    = content.categoryIdentifier;
+//    NSDictionary *userInfo      = content.userInfo;
     
     
     if([actionID isEqualToString:@"com.apple.UNNotificationDefaultActionIdentifier"])
