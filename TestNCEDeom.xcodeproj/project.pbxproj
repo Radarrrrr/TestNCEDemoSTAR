@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09A57D5D221752107DC0FE31 /* libPods-NotificationService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 379070FF0C574A19223EF709 /* libPods-NotificationService.a */; };
+		0C22ACE01E128186004648A2 /* README.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 0C22ACDF1E128186004648A2 /* README.rtfd */; };
 		0C35221C1DEFD54300D9DBEF /* launch_image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C35221B1DEFD54300D9DBEF /* launch_image@2x.jpg */; };
 		0C35223F1DF0410000D9DBEF /* RDUserNotifyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C879C0B1DD4C2B400C3E86E /* RDUserNotifyCenter.m */; };
 		0C3522411DF0419B00D9DBEF /* RDUserNotifyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C879C0B1DD4C2B400C3E86E /* RDUserNotifyCenter.m */; };
@@ -77,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C22ACDF1E128186004648A2 /* README.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = README.rtfd; sourceTree = "<group>"; };
 		0C35221B1DEFD54300D9DBEF /* launch_image@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "launch_image@2x.jpg"; sourceTree = "<group>"; };
 		0C35221D1DF0064A00D9DBEF /* NotificationViewController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationViewController.entitlements; sourceTree = "<group>"; };
 		0C35221E1DF0065600D9DBEF /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 		0C879BAE1DD468CF00C3E86E = {
 			isa = PBXGroup;
 			children = (
+				0C22ACDF1E128186004648A2 /* README.rtfd */,
 				0C879BB91DD468CF00C3E86E /* TestNCEDeom */,
 				0CF3CC601E02BB62005B2AEF /* RDPushTool */,
 				0C879C061DD4C22000C3E86E /* UserNotifyCenter */,
@@ -471,6 +474,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C22ACE01E128186004648A2 /* README.rtfd in Resources */,
 				0C3522451DF5586800D9DBEF /* attach_image.png in Resources */,
 				0C35221C1DEFD54300D9DBEF /* launch_image@2x.jpg in Resources */,
 				0C879BCA1DD468CF00C3E86E /* LaunchScreen.storyboard in Resources */,
