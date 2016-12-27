@@ -25,5 +25,6 @@ target 'TestNCEDeom' do
 
 pod 'AFNetworking'
 pod 'FMDB'
+pod 'SDWebImage'
 
 end
