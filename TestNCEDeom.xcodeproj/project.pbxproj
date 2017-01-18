@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09A57D5D221752107DC0FE31 /* libPods-NotificationService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 379070FF0C574A19223EF709 /* libPods-NotificationService.a */; };
+		0C1771401E2F47C0002FC539 /* PluginPlatformManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17713E1E2F47C0002FC539 /* PluginPlatformManager.m */; };
 		0C22ACE01E128186004648A2 /* README.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 0C22ACDF1E128186004648A2 /* README.rtfd */; };
 		0C35221C1DEFD54300D9DBEF /* launch_image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C35221B1DEFD54300D9DBEF /* launch_image@2x.jpg */; };
 		0C35223F1DF0410000D9DBEF /* RDUserNotifyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C879C0B1DD4C2B400C3E86E /* RDUserNotifyCenter.m */; };
@@ -78,6 +79,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C17713D1E2F47C0002FC539 /* PluginPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginPlatformManager.h; sourceTree = "<group>"; };
+		0C17713E1E2F47C0002FC539 /* PluginPlatformManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginPlatformManager.m; sourceTree = "<group>"; };
+		0C17713F1E2F47C0002FC539 /* PluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginProtocol.h; sourceTree = "<group>"; };
 		0C22ACDF1E128186004648A2 /* README.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = README.rtfd; sourceTree = "<group>"; };
 		0C35221B1DEFD54300D9DBEF /* launch_image@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "launch_image@2x.jpg"; sourceTree = "<group>"; };
 		0C35221D1DF0064A00D9DBEF /* NotificationViewController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationViewController.entitlements; sourceTree = "<group>"; };
@@ -183,6 +187,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		0C17713A1E2F4797002FC539 /* PluginProjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PluginProjects;
+			sourceTree = "<group>";
+		};
+		0C17713B1E2F4797002FC539 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		0C17713C1E2F47C0002FC539 /* PluginPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				0C17713D1E2F47C0002FC539 /* PluginPlatformManager.h */,
+				0C17713E1E2F47C0002FC539 /* PluginPlatformManager.m */,
+				0C17713F1E2F47C0002FC539 /* PluginProtocol.h */,
+			);
+			path = PluginPlatform;
+			sourceTree = "<group>";
+		};
 		0C22ACDD1E126E46004648A2 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,11 +233,13 @@
 			children = (
 				0C22ACDF1E128186004648A2 /* README.rtfd */,
 				0C879BB91DD468CF00C3E86E /* TestNCEDeom */,
+				0C17713A1E2F4797002FC539 /* PluginProjects */,
 				0CF3CC601E02BB62005B2AEF /* RDPushTool */,
 				0C879C061DD4C22000C3E86E /* UserNotifyCenter */,
 				0C8B17B81DED5E3800FC3305 /* NotificationService */,
 				0C879BDB1DD4692900C3E86E /* NotificationViewController */,
 				0C35221A1DEFD54300D9DBEF /* images */,
+				0C17713B1E2F4797002FC539 /* Plugins */,
 				0C879BD61DD4692900C3E86E /* Frameworks */,
 				0C879BB81DD468CF00C3E86E /* Products */,
 				006935234D315C075522D450 /* Pods */,
@@ -229,6 +259,7 @@
 		0C879BB91DD468CF00C3E86E /* TestNCEDeom */ = {
 			isa = PBXGroup;
 			children = (
+				0C17713C1E2F47C0002FC539 /* PluginPlatform */,
 				0C879BBD1DD468CF00C3E86E /* AppDelegate.h */,
 				0C879BBE1DD468CF00C3E86E /* AppDelegate.m */,
 				0C879BC01DD468CF00C3E86E /* ViewController.h */,
@@ -622,6 +653,7 @@
 				0CF3CC741E02BB62005B2AEF /* NWPusher.m in Sources */,
 				0C879BC21DD468CF00C3E86E /* ViewController.m in Sources */,
 				0CF3CC731E02BB62005B2AEF /* NWNotification.m in Sources */,
+				0C1771401E2F47C0002FC539 /* PluginPlatformManager.m in Sources */,
 				0C879BBF1DD468CF00C3E86E /* AppDelegate.m in Sources */,
 				0CF3CC781E02BB62005B2AEF /* NWType.m in Sources */,
 				0C879BBC1DD468CF00C3E86E /* main.m in Sources */,
